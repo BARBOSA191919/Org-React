@@ -16,6 +16,13 @@ const Formulario = (props) => {
 
     const { registrarColaborador, crearEquipo } = props
 
+        //Manjeamos un objeto a partir de los valores de los inputs que estan vinculados
+    // con los valoes que estan almacenados
+    //Recopila nuestros datos en un mismo componente en este caso formulario 
+    // para enviar datos fetch y tomar estos valores desde el front
+    // para un backend con java, con go , node.js es indiferente
+    // la idea es recopilar un estado en un mismo componente
+
     const manejarEnvio = (e) => {
         e.preventDefault()
         console.log("Manejar el envio")
@@ -25,7 +32,7 @@ const Formulario = (props) => {
             foto,
             equipo
         }
-        registrarColaborador(datosAEnviar)
+        registrarColaborador(datosAEnviar) // esto se modifica para enviar datos 
     }
 
     const manejarNuevoEquipo = (e) => {

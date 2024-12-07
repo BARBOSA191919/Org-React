@@ -96,8 +96,13 @@ function App() {
   ])
 
 
-  //Ternario --> condicion ? seMuestra : noSeMuestra
-  // condicion && seMuestra
+
+  //condicionales
+  //Tenario --> condicion? seMuestra : noSeMuestra
+  // condicion && seMuestra 
+  // Hay varias formas de llegar al mismo resultado 
+
+  //Apss.js Es el papa de todos, aca van todos los componentes
 
   const cambiarMostrar = () => {
     actualizarMostrar(!mostrarFormulario)
