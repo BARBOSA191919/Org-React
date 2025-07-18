@@ -9,7 +9,7 @@ Esta aplicación permite administrar colaboradores organizados por equipos, prop
 ## 🖼️ Capturas de Pantalla
 
 ### Vista Principal
-![Vista Principal](./screenshots/vista-principal.png)
+<img width="1847" height="902" alt="Image" src="https://github.com/user-attachments/assets/ed32caea-273c-4e75-ae28-55134626cd99" />
 *Página principal mostrando todos los equipos y colaboradores organizados*
 
 ### Formulario de Registro
