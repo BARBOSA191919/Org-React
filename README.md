@@ -1,4 +1,4 @@
-# Barbosa Org React
+#  Org React
 
 Una aplicación web desarrollada en React para la gestión de colaboradores y equipos de una organización.
 
