@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# Barbosa Org React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación web desarrollada en React para la gestión de colaboradores y equipos de una organización.
 
-## Available Scripts
+## 📋 Descripción
 
-In the project directory, you can run:
+Esta aplicación permite administrar colaboradores organizados por equipos, proporcionando una interfaz intuitiva para visualizar y gestionar la estructura organizacional de la empresa.
 
-### `npm start`
+## 🖼️ Capturas de Pantalla
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Vista Principal
+![Vista Principal](./screenshots/vista-principal.png)
+*Página principal mostrando todos los equipos y colaboradores organizados*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Formulario de Registro
+![Formulario](./screenshots/formulario.png)
+*Formulario para agregar nuevos colaboradores al equipo*
 
-### `npm test`
+### Vista de Equipo
+![Vista de Equipo](./screenshots/vista-equipo.png)
+*Visualización detallada de un equipo específico con sus colaboradores*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Responsive Design
+![Responsive](./screenshots/responsive.png)
+*La aplicación se adapta perfectamente a dispositivos móviles*
 
-### `npm run build`
+> **Nota:** Para agregar las imágenes, crea una carpeta `screenshots` en la raíz del proyecto y coloca las capturas de pantalla correspondientes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tecnologías Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** - Biblioteca principal para la construcción de la interfaz de usuario
+- **CSS3** - Estilos personalizados para cada componente
+- **HTML5** - Estructura semántica de la aplicación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Estructura del Proyecto
 
-### `npm run eject`
+```
+barbosa191919-org-react/
+├── README.md
+├── package.json
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+└── src/
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── reportWebVitals.js
+    ├── setupTests.js
+    └── componentes/
+        ├── Boton/
+        ├── Campo/
+        ├── Colaborador/
+        ├── Equipo/
+        ├── Footer/
+        ├── Formulario/
+        ├── Header/
+        ├── ListaOpciones/
+        └── MiOrg/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧩 Componentes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Componentes Principales
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **App.js** - Componente principal que coordina toda la aplicación
+- **Header** - Cabecera de la aplicación con navegación y branding
+- **Footer** - Pie de página con información adicional
+- **MiOrg** - Componente para gestionar la información de la organización
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Componentes de Formulario
 
-## Learn More
+- **Formulario** - Formulario principal para registro de colaboradores
+- **Campo** - Componente reutilizable para campos de entrada
+- **Boton** - Componente de botón personalizado
+- **ListaOpciones** - Selector desplegable para opciones
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Componentes de Visualización
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Colaborador** - Tarjeta individual de cada colaborador
+- **Equipo** - Contenedor que agrupa colaboradores por equipos
 
-### Code Splitting
+## 🛠️ Instalación
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clona el repositorio:
+```bash
+git clone [URL_DEL_REPOSITORIO]
+cd barbosa191919-org-react
+```
 
-### Analyzing the Bundle Size
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Inicia la aplicación en modo desarrollo:
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+4. Abre tu navegador en `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 Scripts Disponibles
 
-### Advanced Configuration
+- `npm start` - Ejecuta la aplicación en modo desarrollo
+- `npm test` - Ejecuta las pruebas unitarias
+- `npm run build` - Construye la aplicación para producción
+- `npm run eject` - Expone la configuración de webpack (irreversible)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🌟 Características
 
-### Deployment
+- ✅ Gestión de colaboradores por equipos
+- ✅ Interfaz responsive y moderna
+- ✅ Formularios interactivos
+- ✅ Componentes reutilizables
+- ✅ Arquitectura modular y escalable
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🎯 Funcionalidades
 
-### `npm run build` fails to minify
+- Agregar nuevos colaboradores
+- Organizar colaboradores por equipos
+- Visualizar la estructura organizacional
+- Interfaz intuitiva y fácil de usar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📱 Responsividad
+
+La aplicación está diseñada para funcionar correctamente en:
+- 💻 Escritorio
+- 📱 Dispositivos móviles
+- 📊 Tablets
+
+## 🤝 Contribución
+
+1. Haz un fork del proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commitea tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## 👨‍💻 Autor
+
+**Barbosa191919**
+
+## 📞 Contacto
+
+Para consultas o sugerencias, puedes contactar al desarrollador a través de:
+- GitHub: [@barbosa191919](https://github.com/barbosa191919)
+
+---
+
+⭐ ¡No olvides dar una estrella al proyecto si te fue útil!
