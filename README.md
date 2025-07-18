@@ -20,9 +20,15 @@ Esta aplicación permite administrar colaboradores organizados por equipos, prop
 <img width="1846" height="1013" alt="Image" src="https://github.com/user-attachments/assets/5ebb98b9-564b-4628-a835-a6016a54c3bc" />
 *Visualización detallada de un equipo específico con sus colaboradores*
 
-### Responsive Design
-<img width="468" height="971" alt="Image" src="https://github.com/user-attachments/assets/4527dbd3-c767-4381-ab8a-20c14494ce60" />
-*La aplicación se adapta perfectamente a dispositivos móviles*
+<div align="center">
+
+  <h3>Responsive Design</h3>
+
+  <img width="468" height="971" alt="Image" src="https://github.com/user-attachments/assets/4527dbd3-c767-4381-ab8a-20c14494ce60" />
+
+  <p><em>La aplicación se adapta perfectamente a dispositivos móviles</em></p>
+
+</div>
 
 ## 🚀 Tecnologías Utilizadas
 
