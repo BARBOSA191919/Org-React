@@ -6,7 +6,7 @@ Una aplicación web desarrollada en React para la gestión de colaboradores y eq
 
 Esta aplicación permite administrar colaboradores organizados por equipos, proporcionando una interfaz intuitiva para visualizar y gestionar la estructura organizacional de la empresa.
 
-## 🖼️ Capturas de Pantalla
+## 📷 Capturas de Pantalla
 
 ### Vista Principal
 <img width="1847" height="902" alt="Image" src="https://github.com/user-attachments/assets/ed32caea-273c-4e75-ae28-55134626cd99" />
