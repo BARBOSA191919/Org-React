@@ -13,18 +13,16 @@ Esta aplicación permite administrar colaboradores organizados por equipos, prop
 *Página principal mostrando todos los equipos y colaboradores organizados*
 
 ### Formulario de Registro
-![Formulario](./screenshots/formulario.png)
+<img width="1845" height="1017" alt="Image" src="https://github.com/user-attachments/assets/58c9ad07-42d2-49d3-b303-09c4a17ef3d3" />
 *Formulario para agregar nuevos colaboradores al equipo*
 
 ### Vista de Equipo
-![Vista de Equipo](./screenshots/vista-equipo.png)
+<img width="1846" height="1013" alt="Image" src="https://github.com/user-attachments/assets/5ebb98b9-564b-4628-a835-a6016a54c3bc" />
 *Visualización detallada de un equipo específico con sus colaboradores*
 
 ### Responsive Design
-![Responsive](./screenshots/responsive.png)
+<img width="468" height="971" alt="Image" src="https://github.com/user-attachments/assets/4527dbd3-c767-4381-ab8a-20c14494ce60" />
 *La aplicación se adapta perfectamente a dispositivos móviles*
-
-> **Nota:** Para agregar las imágenes, crea una carpeta `screenshots` en la raíz del proyecto y coloca las capturas de pantalla correspondientes.
 
 ## 🚀 Tecnologías Utilizadas
 
